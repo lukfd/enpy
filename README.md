@@ -12,7 +12,7 @@ Python library for converting datasets to edges and nodes csv files for network 
 
 # Documentation
 
-# Types of dataset supported
+### Types of dataset supported
 
 
 ----
