@@ -1,6 +1,6 @@
 # enpy
 
-**Python library for converting datasets to edges and nodes csv files for network analysis (in particular iGraph)**
+**Python library for converting datasets to edges and nodes csv files for network analysis (in particular iGraph)**\s
 Version: 0.0.0
 ----
 
@@ -10,7 +10,7 @@ This python library is for getting the data from a dataset and creating two csv 
 
 # Installation
 
-**requirements: ** Python 3
+**requirements:** Python 3
 Fork the project or
 
 `git clone https://github.com/lukfd/enpy.git`
