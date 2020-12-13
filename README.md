@@ -8,7 +8,7 @@ Version: 0.0.1
 
 # Description
 
-This python library is for getting the data from a dataset and creating two csv files (or other extentions in the future) that will be used as *Edges* and *Node* (also called Links and Verticies) in Network Analysis which can be done in (iGraph)[https://igraph.org/]. 
+This python library is for getting the data from a dataset and creating two csv files (or other extentions in the future) that will be used as *Edges* and *Node* (also called Links and Verticies) in Network Analysis which can be done in [iGraph](https://igraph.org/). 
 
 # Installation
 
@@ -133,7 +133,7 @@ Structure of the library:
 │
 ├─ setup.py
 └─/tests
-   ├─ /path
+   ├─ /filetest
    │  ├─ edges.csv
    │  ├─ nodes.csv
    │  ├─ nodes_name.csv
@@ -145,7 +145,7 @@ Structure of the library:
 
 #### tests
 
-I have used the tutorial example and the `example.py` code that I have used in my Network Model course. Me and my teamate have analyzed the data from the dataset of a list of recepies that contains a list of ingredients. The original dataset is available at (https://www.kaggle.com/kaggle/recipe-ingredients-dataset)[https://www.kaggle.com/kaggle/recipe-ingredients-dataset]. In the tutorial and in the example code we have used a smaller `train.json` dataset, which is composed as:
+I have used the tutorial example and the `example.py` code that I have used in my Network Model course. Me and my teamate have analyzed the data from the dataset of a list of recepies that contains a list of ingredients. The original dataset is available at [https://www.kaggle.com/kaggle/recipe-ingredients-dataset](https://www.kaggle.com/kaggle/recipe-ingredients-dataset). In the tutorial and in the example code we have used a smaller `train.json` dataset, which is composed as:
 
 #### Packages Dependancies
 
@@ -161,8 +161,8 @@ This python library depends on core python libraries *json* and *csv*.
 
 #### Other resources
 
-- To learn more about statistical network modeling read (http://networksciencebook.com/)[http://networksciencebook.com/]
+- To learn more about statistical network modeling read [http://networksciencebook.com/](http://networksciencebook.com/)
 
-- More about network visualization in *R* (https://kateto.net/network-visualization)[https://kateto.net/network-visualization]
+- More about network visualization in *R* [https://kateto.net/network-visualization](https://kateto.net/network-visualization)
 
-- learn more about json and csv python libraries here : (https://docs.python.org/3/library/json.html)[https://docs.python.org/3/library/json.html], (https://docs.python.org/3/library/csv.html?highlight=csv#module-csv)[https://docs.python.org/3/library/csv.html?highlight=csv#module-csv]
+- learn more about json and csv python libraries here : [https://docs.python.org/3/library/json.html](https://docs.python.org/3/library/json.html), [https://docs.python.org/3/library/csv.html?highlight=csv#module-csv](https://docs.python.org/3/library/csv.html?highlight=csv#module-csv)
