@@ -1,4 +1,4 @@
-# Version 0.0.1 - Author: Luca Comba
+# Version 1.0.0 - Author: Luca Comba
 # ENPY OBJ and FUNCTIONS
 
 # Dependancies
@@ -163,4 +163,4 @@ class Enpy:
 
     # testing
     def test(self):
-        print("enpy -- VERSION : 0.0.1")
+        print("enpy -- VERSION : 1.0.0")

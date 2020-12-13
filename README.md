@@ -2,7 +2,7 @@
 
 **Python library for converting datasets to edges and nodes csv files for network analysis (in particular iGraph)**
 
-Version: 0.0.1
+Version: 1.0.0
 
 ----
 
@@ -31,7 +31,7 @@ from enpy import Enpy
 Initialize the Enpy object
 ```
 # 1. Creating Enpy Object
-enpyObj = Enpy('./dataset.json')
+enpyObj = Enpy.Enpy('./path/dataset.json')
 ```
 
 Then call functions to create the files `edges.csv` and `nodes.csv`.
@@ -56,7 +56,7 @@ to have a full understanding, read the Documentation or read the `example.py` co
 
 The package *enpy* is a collection of functions within a class! So remember to import and create the object Enpy.
 
-the Enpy object needs to be initialize by passing the file name of your dataset (for this version 0.0.1 it can only be a json file)
+the Enpy object needs to be initialize by passing the file name of your dataset (for this version 1.0.0 it can only be a json file)
 
 **CLASS' FUNCTIONS**
 - Creates the csv file for the nodes of the network. It **expects** the path of to where to write the csv file and the name of the array where the possible nodes can be in the json object. By defaul it will name the column header to *id*.
@@ -84,7 +84,7 @@ printNamesJson2Csv(self, from_name_array, first_col_name = 'number', second_col_
 getEdgesJson2Csv(self, output_path, from_name_array, name_of_col_one = 'From', name_of_col_two = 'To')
 ```
 
-- Simply prints `enpy -- VERSION : 0.0.1` to terminal.
+- Simply prints `enpy -- VERSION : 1.0.0` to terminal.
 ```
 test()
 ```
@@ -116,7 +116,7 @@ In the `example.py` it is used a json with this structure:
 ```
 (For more insights on this json file read section *tests*)
 
-So for this current version of the package (v 0.0.1) the dataset that you can work with need to be a *json* file object with an array of strings.
+So for this current version of the package (v 1.0.0) the dataset that you can work with need to be a *json* file object with an array of strings.
 
 For the future we would need to make the package read also *csv*, *other formats of json files* and other *file type extentions*.
 
@@ -127,8 +127,8 @@ Structure of the library:
 ├─ LICENSE
 ├─ README.md
 │
-├─ /src
-│  ├─ enpy.py
+├─ /enpy
+│  ├─ Enpy.py
 │  └─ __init__.py
 │
 ├─ setup.py
@@ -146,6 +146,8 @@ Structure of the library:
 #### tests
 
 I have used the tutorial example and the `example.py` code that I have used in my Network Model course. Me and my teamate have analyzed the data from the dataset of a list of recepies that contains a list of ingredients. The original dataset is available at [https://www.kaggle.com/kaggle/recipe-ingredients-dataset](https://www.kaggle.com/kaggle/recipe-ingredients-dataset). In the tutorial and in the example code we have used a smaller `train.json` dataset, which is composed as:
+
+When I test on my local machined I had trouble importing the module. So I had to run the example.py from the base path. Then I had to have all the paths as `./tests/filetes/` as consequence.
 
 #### Packages Dependancies
 
@@ -166,3 +168,9 @@ This python library depends on core python libraries *json* and *csv*.
 - More about network visualization in *R* [https://kateto.net/network-visualization](https://kateto.net/network-visualization)
 
 - learn more about json and csv python libraries here : [https://docs.python.org/3/library/json.html](https://docs.python.org/3/library/json.html), [https://docs.python.org/3/library/csv.html?highlight=csv#module-csv](https://docs.python.org/3/library/csv.html?highlight=csv#module-csv)
+
+- How to publish in pypi [https://realpython.com/pypi-publish-python-package/](https://realpython.com/pypi-publish-python-package/)
+
+#### Old issues
+
+- Importing the module locally when I first tested (to have the directory named enpy and the module as consequence named Enpy.py). To read the issue read [https://stackoverflow.com/questions/65272979/importing-class-of-module-from-different-path-in-python-nameerror-name-enpy/65273026#65273026](https://stackoverflow.com/questions/65272979/importing-class-of-module-from-different-path-in-python-nameerror-name-enpy/65273026#65273026)
