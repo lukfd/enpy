@@ -153,11 +153,11 @@ This python library depends on core python libraries *json* and *csv*.
 
 #### To-do
 
-[ ] not inserting duplicate in `getEdgesJson2Csv` function
-[ ] expand readable file extentsion to csv
-[ ] make new tests
-[ ] clean up code
-[ ] better commenting
+- [ ] not inserting duplicate in `getEdgesJson2Csv` function
+- [ ] expand readable file extentsion to csv
+- [ ] make new tests
+- [ ] clean up code
+- [ ] better commenting
 
 #### Other resources
 
