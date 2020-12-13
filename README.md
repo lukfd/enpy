@@ -4,6 +4,7 @@
 
 Version: 1.0.0
 
+also available at: [https://test.pypi.org/project/edges-nodes-py/1.0.0/](https://test.pypi.org/project/edges-nodes-py/1.0.0/)
 ----
 
 # Description
@@ -17,16 +18,19 @@ Fork the project or
 
 `git clone https://github.com/lukfd/enpy.git`
 
-and in the future hopefully
+OR
 
-`pip install enpy`
+`python -m pip install --index-url https://test.pypi.org/simple/ --no-deps edges-nodes-py`
 
 # Tutorial
 
 First import the python object from the package.
+
 ```
 from enpy import Enpy
 ```
+
+if you have installed from github also add to the top `import sys` and `sys.path.insert(1, './enpy')`. Also run your script in the base directory.
 
 Initialize the Enpy object
 ```

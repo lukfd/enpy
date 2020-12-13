@@ -1,6 +1,6 @@
 # ''' Local Test VERSION 1.0.0 '''
-import sys
-sys.path.insert(1, '../enpy')
+# import sys
+# sys.path.insert(1, '../enpy')
 
 from enpy import Enpy
 
@@ -23,4 +23,4 @@ enpyObj.getNamesJson2Csv('./tests/filetest/nodes_name.csv', 'ingredients')
 enpyObj.printNamesJson2Csv('ingredients',printNumber=10)
 
 # Create nodes.csv
-enpyObj.getEdgesJson2Csv('./filetest/edges.csv', 'ingredients')
+#enpyObj.getEdgesJson2Csv('./tests/filetest/edges.csv', 'ingredients')
